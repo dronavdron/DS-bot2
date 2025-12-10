@@ -34,7 +34,7 @@ theme: /
 
     # --- НЕЛЬМА КОЛИЧЕСТВО ---
     state: newNode_nelma_qty
-        a:  Выберите количество:
+        a:  Выберите количество: \n
         buttons:
             "1 шт" -> /newNode_order_nelma_1
             "2 шт" -> /newNode_order_nelma_2
