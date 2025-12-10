@@ -1,9 +1,7 @@
-
 theme: /
 
     state: newNode_13
-        a:  Добро пожаловать в Северные Деликатесы! 
-
+        a:  Добро пожаловать в Северные Деликатесы! \n
             Выберите категорию товара.
         buttons:
             "Рыба слабосолёная филе" -> /newNode_fish
@@ -16,8 +14,7 @@ theme: /
             "Вернуться в меню" -> /newNode_13
 
     state: newNode_chir
-        a:  Чир филе слабосолёный 
-
+        a:  Чир филе слабосолёный \n
             Деликатесное слабосолёное филе северного Чира.
         image: https://raw.githubusercontent.com/kamushken/imgtest/master/chir.jpg
         buttons:
@@ -25,9 +22,9 @@ theme: /
             "Назад" -> /newNode_fish
             "В меню" -> /newNode_13
 
+    # --- НЕЛЬМА КАРТОЧКА ---
     state: newNode_nelma
-        a:  Нельма филе слабосолёная 
-
+        a:  Нельма филе слабосолёная \n
             Премиальное филе Нельмы слабой соли.
         image: https://raw.githubusercontent.com/kamushken/imgtest/master/nelma.jpg
         buttons:
@@ -35,6 +32,7 @@ theme: /
             "Назад" -> /newNode_fish
             "В меню" -> /newNode_13
 
+    # --- НЕЛЬМА КОЛИЧЕСТВО ---
     state: newNode_nelma_qty
         a:  Выберите количество:
         buttons:
