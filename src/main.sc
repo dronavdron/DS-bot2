@@ -2,41 +2,41 @@ theme: /
 
 state: newNode_13
     a: Добро пожаловать в Северные Деликатесы!\nВыберите категорию товара.
-    inlineButtons:
-        - ["Рыба слабосолёная филе", "/newNode_fish"]
+    buttons:
+        "Рыба слабосолёная филе" -> {inline: true, goto: /newNode_fish}
 
 state: newNode_fish
     a: Выберите товар:
-    inlineButtons:
-        - ["Чир филе", "/newNode_chir"]
-        - ["Нельма филе", "/newNode_nelma"]
-        - ["В меню", "/newNode_13"]
+    buttons:
+        "Чир филе" -> {inline: true, goto: /newNode_chir}
+        "Нельма филе" -> {inline: true, goto: /newNode_nelma}
+        "Вернуться в меню" -> {inline: true, goto: /newNode_13}
 
 state: newNode_chir
     a: Чир филе слабосолёный\nДеликатесное слабосолёное филе северного Чира.
     image: https://raw.githubusercontent.com/kamushken/imgtest/master/chir.jpg
-    inlineButtons:
-        - ["Заказать", "/newNode_order_chir"]
-        - ["Назад", "/newNode_fish"]
-        - ["В меню", "/newNode_13"]
+    buttons:
+        "Заказать" -> {inline: true, goto: /newNode_order_chir}
+        "Назад" -> {inline: true, goto: /newNode_fish}
+        "В меню" -> {inline: true, goto: /newNode_13}
 
 state: newNode_nelma
     a: Нельма филе слабосолёная\nПремиальное филе Нельмы слабой соли.
     image: https://raw.githubusercontent.com/kamushken/imgtest/master/nelma.jpg
-    inlineButtons:
-        - ["Выбрать количество", "/newNode_nelma_qty"]
-        - ["Назад", "/newNode_fish"]
-        - ["В меню", "/newNode_13"]
+    buttons:
+        "Выбрать количество" -> {inline: true, goto: /newNode_nelma_qty}
+        "Назад" -> {inline: true, goto: /newNode_fish}
+        "В меню" -> {inline: true, goto: /newNode_13}
 
 state: newNode_nelma_qty
     a: Выберите количество:\n
-    inlineButtons:
-        - ["1 шт", "/newNode_order_nelma_1"]
-        - ["2 шт", "/newNode_order_nelma_2"]
-        - ["3 шт", "/newNode_order_nelma_3"]
-        - ["4 шт", "/newNode_order_nelma_4"]
-        - ["Назад", "/newNode_nelma"]
-        - ["В меню", "/newNode_13"]
+    buttons:
+        "1 шт" -> {inline: true, goto: /newNode_order_nelma_1}
+        "2 шт" -> {inline: true, goto: /newNode_order_nelma_2}
+        "3 шт" -> {inline: true, goto: /newNode_order_nelma_3}
+        "4 шт" -> {inline: true, goto: /newNode_order_nelma_4}
+        "Назад" -> {inline: true, goto: /newNode_nelma}
+        "В меню" -> {inline: true, goto: /newNode_13}
 
 state: newNode_order_chir
     a: Ваш заказ: Чир филе. Мы скоро свяжемся с вами!
