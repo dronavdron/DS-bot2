@@ -24,7 +24,7 @@ theme: /
 
     # --- НЕЛЬМА КАРТОЧКА ---
     state: newNode_nelma
-        a:  Нельма филе слабосолёная \n
+        a:  Нельма филе слабосолёная 
             Премиальное филе Нельмы слабой соли.
         image: https://raw.githubusercontent.com/kamushken/imgtest/master/nelma.jpg
         buttons:
