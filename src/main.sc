@@ -10,7 +10,7 @@ state: newNode_fish
     buttons:
         "Чир филе" -> {inline: true, goto: /newNode_chir}
         "Нельма филе" -> {inline: true, goto: /newNode_nelma}
-        "Вернуться в меню" -> {inline: true, goto: /newNode_13}
+        "В меню" -> {inline: true, goto: /newNode_13}
 
 state: newNode_chir
     a: Чир филе слабосолёный\nДеликатесное слабосолёное филе северного Чира.
